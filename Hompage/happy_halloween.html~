@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Akronim|Bitter|Petit+Formal+Script" rel="stylesheet"> 
+	<link rel="stylesheet" href="StyleSheet.css"/>
+	<script src="prefixfree.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+	<style>
+		body { margin:0; padding:0; }
+		li { list-style: none; }
+		a { text-decoration: none; }
+		img { border: 0; }
+		body {
+			font-family: 'Bitter', serif;
+			font-family: 'Petit Formal Script', cursive;
+			font-family: 'Akronim', cursive;
+			background-color:black;
+		         }
+	</style>
+
+	<style>
+		
+		#title { 
+				  border: 3px solid white;
+				  overflow:hidden;
+				  width:900px;
+				  height:800px;
+				  margin: 0 auto;
+				  line-height:800px;
+				  color: white;
+				  font-size:7em;
+				  display:block;
+				 font-family: 'Spicy Rice', cursive;
+				}
+
+		#start { display:block;
+				 }
+
+					       	
+		#start:checkbox + #title_first{  
+					  					
+										display: none;
+
+										-ms-transition-duration:3s;
+										-moz-transition-duration:3s;
+										transition-duration:3s; }
+	</style>
+
+	<style>
+		#invite {	width:500px; 
+				  	height:500px;
+					text-align:center;
+					margin: 30px;
+					line-height:500px;
+					font-size:3em;
+					display:none;
+				  }
+
+		#img:checkbox ~ #invite {	
+
+									border: 5px solid white;
+									display:block;
+
+									-ms-transition-delay: 5s;
+									-moz-transition-delay: 5s;
+									transition-delay: 5s;
+
+									-ms-transition-duration:1s;
+									-moz-transition-duration:1s;
+									transition-duration:1s;
+								}
+		
+	</style>
+
+	<style>
+		.main_page { display:none;}		
+	
+		#main_header { 
+			position: relative;
+			width: 80%; margin: 0 auto;
+		         }
+		#main_header > #title {
+					position: absolute;
+					top: 50px;
+					left: 40px;
+					color: white;
+					font-size: 1.3em;
+				      }		
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('halloween.jpg');
+					border-radius: 100px 100px 100px 100px;
+					width: 400px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+ </head>
+ <body>
+		<input id="start" type="radio"/>
+		<div id="title_first">
+			<label for="start">Halloween_Party!</label>
+		</div>
+		
+	<div id = "invite">
+		<h1>dfljdslf</h1>
+	</div>
+
+	<div class="main_page">
+		<div class="ti_img"></div>
+		<header id="main_header">
+			<div id="title">
+				<h1>Happy halloween!</h1>
+				<h2>Hogwarts School of Witchcraft and Wizardry!</h2>
+			</div>
+		</header>
+	</div>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

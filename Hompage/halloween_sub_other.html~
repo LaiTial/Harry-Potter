@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url(initi.css);
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url(class_subject_sec.css);	
+
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('sub.jpg');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+			
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+			@import url(class_subject_thir.css);	
+			
+
+			section > aside{		
+						display:inline-block;
+						padding:30px;
+						font-size:1.3em;
+						width:900px;
+						height:1100px;
+						border-radius: 10px 10px 10px 10px;	
+						background:white;
+						font-family: 'Kaushan Script', cursive;
+						float:right;
+					}
+
+			section > aside > h1 {
+										font-family: 'Kaushan Script', cursive;
+										font-family: 'Lobster', cursive;
+										font-size:2em;
+										text-decoration:underline;
+									    }
+
+			#f {
+					width:450px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+			#s {
+					width:250px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+
+			section > aside > div > h4 { float:left;}
+
+			aside > div { margin:10px; overflow:hidden;}
+
+	</style>
+
+	<style>
+		@import url(titl_ta.css);
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+
+			<aside>
+				<h1>other subject</h1><br/>
+
+				<div>
+					<h4>
+						<h3>Alchemy</h3>
+						<img id="f" src="Alchemy.jpg"/>
+						This is a subject that can be taken from 6th grade or higher. 
+						It is said that it is not provided every year, but only if it is supported by a certain number of students who meet N.E.W.T. 
+						It is a subject that requires mastery of various subjects such as transformation, magic, and magic medicine, but even if you take this class, you cannot make gold.
+					</h4>
+				</div><br/>
+
+				<div>
+					<h4>
+						<h3>Apparition</h3>
+						<img id="s" src="Apparition.jpg"/>
+						A course invited by the Ministry of Magic to teach sixth graders who are about to become adults.<br/>
+						It is not a regular Hogwarts curriculum, so they have to pay extra. Meanwhile, since teleportation is not possible in Hogwarts, the defense of the center hall is briefly removed from the classroom every week.
+						3D of Destination, Destination, Deliberation is said to be important.
+						There is an annual test and students who become adults on the test day can apply.
+						It is a very convenient technology, but it requires a high level of concentration, and it is said that adults do not like to use it because spliching can only move parts of the body.
+					</h4>
+				</div><br/>
+			</aside>
+		</section>
+			
+		<div id="pin">
+			<div class="box">Go to other course</div>
+			<aside id="link">
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html">1th and 2th course</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_3th.html">after 3th course</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_other.html">other subject</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_exam.html">examination</a></li>
+		</aside>
+		</div>
+		</div>
+
+		<center><footer>Made by Kimsohei</footer></center>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

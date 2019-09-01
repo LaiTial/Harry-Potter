@@ -1,0 +1,13 @@
+
+
+		body { margin:0; padding:0; }
+		a { text-decoration: none; }
+		img { border: 0; }
+		body {
+			font-family: 'Bitter', serif;
+			font-family: 'Petit Formal Script', cursive;
+			font-family: 'Italianno', cursive;
+			font-family: 'Rochester', cursive;
+			background-color:black;
+		         }
+		a { color:black;}

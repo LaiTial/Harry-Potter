@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url('initi.css');
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url('class_subject_sec.css');
+		
+		#title > a {color:white;}
+
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('witch_thirst.jpg');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+			
+
+	<style>
+			.link_other {
+							display:block;
+							padding:30px;
+							font-size:1.3em;
+							width:1000px;
+							margin:20px auto;	
+							position:relative;
+							font-weight:bold;
+						   }
+
+			aside > div:nth-of-type(1) {
+										background-image:url('cir1.png');
+										top:50px;
+										left:75px;
+										background-size:100% 60px;	
+										background-repeat: no-repeat;
+										animation-name:first;
+										animation-duration:4s;
+										animation-direction:alternate;
+										animation-iteration-count:infinite;	
+										animation-timing-function:ease-out;
+									  }
+
+			aside > div:nth-of-type(2) {
+										background-image:url('cir2.png');
+										top:200px;
+										right:50px;
+										background-size:100% 60px;	
+										background-repeat: no-repeat;
+										animation-name:fourth;
+										animation-duration:5s;
+										animation-direction:alternate;
+										animation-iteration-count:infinite;	
+										animation-timing-function:ease;
+									  }
+
+			aside > div:nth-of-type(3) {
+										background-image:url('cir3.png');
+										top:200px;
+										left:200px;
+										background-size:100% 60px;	
+										background-repeat: no-repeat;
+										animation-name:second;
+										animation-duration:7s;
+										animation-direction:alternate;
+										animation-iteration-count:infinite;	
+										animation-timing-function:ease-in-out;
+									  }
+
+			aside > div:nth-of-type(4) {
+										background-image:url('cir4.png');
+										top:100px;
+										right:200px;
+										background-size:100% 60px;	
+										background-repeat: no-repeat;
+										animation-name:third;
+										animation-duration:5s;
+										animation-direction:alternate;
+										animation-iteration-count:infinite;	
+										animation-timing-function:ease-in;
+									  }
+
+
+			aside > div > center > a { 
+								line-height:130px;
+								text-align:center;
+							}
+
+			aside > div {
+								width:60px;
+								height:60px;
+								position: absolute;}
+
+			div > center {	
+						height:130px;
+						width:0px;
+						overflow:hidden;
+					}
+
+			aside > div:hover {
+							animation-play-state:paused;
+							width:130px;
+							height:130px;
+							background-size: 100% 130px;
+							transition-duration:5s;
+						}
+			aside > div:hover > center { 
+												width:130px;
+												transition-delay:5s;
+												transition-duration:2s;
+											}
+										
+							
+	</style>
+
+	<style>
+
+			@keyframes first {
+
+				from {	top:50px; left:75px;}
+				
+				30% {top:150px; left:25px; }
+	
+				60%{top:75px; left:50px;}
+				
+				to { top:300px; left:75px;}
+								}		
+
+			@keyframes second {
+
+				from {	top:200px; left:200px;}
+				
+				30% {top:160px; left:100px; }
+				60%{top:25px; left:200px;}
+				
+				to { top:50px; left:112px;}
+								}	
+
+			@keyframes third {
+
+				from {	top:100px; right:200px;}
+				
+				30% {top:160px; right:220px; }
+				60%{top:25px; right:180px;}
+				
+				to { top:50px; right:220px;} }
+
+
+			@keyframes fourth {
+
+				from {	top:200px; right:50px;}
+				
+				30% {top:270px; right:70px; }
+				60%{top:125px; right:100px;}
+				
+				to { top:50px; right:110px;}
+								}	
+	</style>
+
+	<style>
+			@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+			@import url('titl_ta.css');
+
+
+			letter {		
+						display:block;
+						padding:30px;
+						font-size:1.5em;
+						width:900px;
+						height:150px;
+						border-radius: 10px 10px 10px 10px;
+						background:white;
+						margin:20px auto;	
+						font-weight:bold;
+						border: 1px solid white;
+					}
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+			<aside class="link_other">
+					<div>
+						<center><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html">Basic knowledge</a></center>
+					</div>
+					<div>
+						<center><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru_schoolsong.html">School song</a></center>
+					</div>
+					<div>
+						<center><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru_Facilities">Facilities</a></center>
+					</div>
+					<div>
+						<center><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru_Magic Item">Magic Item</a></center>
+					</div>
+					<center><img src="castle.png"/></center>
+			<aside>
+		</section>
+
+		<letter>
+				Hogwarts is the school of wizards founded by four great magicians about 1,000 years ago.<br/>
+				Children born with magical powers receive admission notices from Hogwarts at the age of eleven.<br/>
+				Only after receiving this invitation can you enter Hogwarts, which requires you to be a wizard/witch of British nationality.<br/>
+		</letter>
+
+		<center>
+			<footer>
+				Made by Kimsohei<br/>
+				8301011
+			</footer>
+		</center>
+
+ </body>
+</html>
+
+

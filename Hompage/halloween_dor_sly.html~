@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+	
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url(initi.css);
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url(class_subject_sec.css);		
+
+		#title > a {color:white;}
+
+	
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('link.png');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;	
+
+					animation-name:rint;
+					animation-duration:10s;
+					animation-direction:normal;
+					animation-timing-function:linear;
+					animation-iteration-count:infinite;			
+				}
+
+
+		@keyframes rint {
+		
+			from{	transform: rotate(0deg);}
+			to{ transform:rotate(360deg);}}
+
+
+
+
+	</style>
+			
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+
+			
+			.li { overflow:hidden;}
+
+			#link {		
+						display:block;
+						padding:30px;
+						font-size:1.3em;
+						width:160px;
+						height:190px;
+						border-radius: 0px 0px 10px 10px;
+						background:white;
+						font-family: 'Kaushan Script', cursive;
+					}
+
+			section > aside{		
+						display:inline-block;
+						padding:30px;
+						font-size:1.3em;
+						width:900px;
+						height:630px;
+						border-radius: 10px 10px 10px 10px;	
+						background-image:url('sly.jpg');
+						background-size:100% 690px;
+						background-repeat:no-repeat;
+						overflow:hidden;
+						font-family: 'Kaushan Script', cursive;
+						float:right;
+						color:#00FF00;
+						border: 2px solid #009900;
+					}
+
+			section > aside > img {float:left;}
+
+
+			.box { 
+					display:block;
+					padding:10px;
+					border:1px solid black;
+					background:#00FF00;
+					width:199px;
+					height:30px;
+					border-radius:10px 10px 0px 0px;
+					font-size:1.5em;
+					text-align:center;
+					line-height:30px;
+					font-weight:bold;
+				    }
+
+			.box > a {color:#333399;}
+
+			#pin { 
+					float:right;
+					display:inline-block;
+					margin:0px 20px;						
+				   }
+	</style>
+
+	<style>
+				@import url(titl_ta.css);
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+
+			<aside>
+				<img src="log_sli.jpg"/>
+				<h1>Slytherin House-(a dormitory for talented people).</h1><br/> 
+					It is one of the four dormitories on Hogwarts.<br/>
+					It is a dormitory for ambitious and talented people who will go by any means possible to achieve their goals.
+					The Founder's Ideology is, "Let's teach only children with the purest blood."
+					Perhaps because of the founders, this dormitory has a large percentage of pure blood-sativists. 
+					This is why it is misleading that there are only pure bloodshed, but there are wizards from Muggles and mixed bloodshed in this dormitory. 
+
+					Many people who eat death are from Slitheen. a rival relationship with Griffindor What's interesting is that Griffindor produced a lot of ores that opposed death eaters, but it is also a dorm that 						produces more people who eat death after Slitheen.
+
+					People in this dormitory tend to prove their abilities to others. For this reason, many people seek power.
+				    It's not necessarily bad to pursue power, but there are many who die during graduation, or who do not do anything wrong. Reputation is generally bad because it produces a lot of bad people.
+					But not all bad people are from Slitheen, and not just pure blood. 
+					Mullin, the legendary wizard who also has his name on the medal, is from the dormitory. 
+					Discrimination against Slitheen is essentially the same as discrimination against muggles and mixed bloodshed by some Slitheen. 
+					In the end, dormitories are just dormitories, and they should not be forgotten that their own choices depend on their own choices, 
+					nor should they discriminate or condemn themselves on black-and-white logic.
+			</aside>
+		</section>
+			
+		<div id="pin">
+			<div class="box"><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html">Go to other Dormitory</a></div>
+			<aside id="link">
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_gri.html">Gryffindor</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_huff.html">Hufflepuff</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_raven.html">Ravenclaw</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_sly.html">Slytherin</a></li>
+		</aside>
+		</div>
+		</div>
+
+		<center><footer>Made by Kimsohei</footer></center>
+
+ </body>
+</html>
+
+
+
+
+
+
+

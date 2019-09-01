@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url(initi.css);
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url(class_subject_sec.css);		
+	
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('sub.jpg');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+			
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+			@import url(class_subject_thir.css);
+
+			section > aside{		
+						display:inline-block;
+						padding:30px;
+						font-size:1.3em;
+						width:900px;
+						height:2400px;
+						border-radius: 10px 10px 10px 10px;	
+						background:white;
+						font-family: 'Kaushan Script', cursive;
+						float:right;
+					}
+
+			section > aside > h1 {
+										font-family: 'Kaushan Script', cursive;
+										font-family: 'Lobster', cursive;
+										font-size:2em;
+										text-decoration:underline;
+									    }
+
+			#f {
+					width:450px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+			#s {
+					width:250px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+			#c {
+					width:330px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+			#m {
+					width:330px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+			#r {
+					width:330px;
+					height:300px;
+					float:left;
+					margin:0px 20px;
+				   }
+
+
+			section > aside > div > h4 { float:left;}
+
+			aside > div { margin:10px; overflow:hidden;}
+
+
+	</style>
+
+	<style>
+		@import url(titl_ta.css);
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+
+			<aside>
+				<h1>after 3th course</h1><br/>
+
+				<div>
+					<h4>
+						<h3>Muggle Studies</h3>
+						<img id="f" src="Charity Burbage.jpg"/>
+						Charity Burbage.<br/>
+						She is a professor of muggle studies at Hogwarts.<br/>
+						"Muggles are no different than wizards, and I strongly encourage marriage with Muggles." is a person who claims to defend the muggles of his back.
+						It is a subject that learns about Muggles' society and technology as part of wizards.
+					</h4>
+				</div><br/>
+
+				<div>
+					<h4>
+						<h3>Care of Magical Creatures</h3>
+						<img id="s" src="Rubeus Hagrid.jpg"/>
+						Rubeus Hagrid.<br/>
+						It is a subject that learns how to deal with and take care of mysterious creatures.
+						Due to the nature of the class, it is often an outdoor class.<br/>
+
+						Hagrid's unique safety insensitivity and monster-loving disorder often cause problems by selecting dangerous creatures as subjects for classes that are not dangerous to students. 
+						The previous professor Kathleen Bahn also had 63 times of honesty, and she tried to appear in a play with Ash Winder, a snake of fire, but she burned down the banquet hall, and only one and a half arms were left before retirement.
+
+					</h4>
+				</div><br/>
+
+				<div>
+					<h4>
+						<h3>Study of Ancient Runes</h3>
+						<img id="c" src="Bathsheda Babbling.jpg"/>
+						Bathsheda Babbling.<br/>
+						It is a course to study magic documents engraved with ancient run characters and can be selected from the third grade or higher.<br/> 
+						In the textbook, 'The ancient characters were easily created.', 'Loon character dictionary', 'Magic hieroglyphics and symbols', 'Pictures' Character Map' and 'Commercial Loon Text Translation'.
+					</h4>
+				</div><br/>
+
+				<div>
+					<h4>
+						<h3>Divination</h3>
+						<img id="m" src="Sybill Patricia Trelawney.jpg"/>
+						Sybill Patricia Trelawney.<br/>
+						Hogwarts's Divination professor<br/>
+						You learn this and that, literally predicting future events. <br/>
+						The professor himself is a brilliant prophet, but his proper classes are hard. 
+						The gift of prophecy is basically to be born, and the divination of these divinities is just an aid. 
+						In the beginning, Cybil himself has the gift of prophecy, but he is not so good at general fortunetelling, and he is a con man who avoids and exaggerates himself.
+					</h4>
+				</div><br/>
+
+				<div>
+					<h4>
+						<h3>Arithmancy</h3>
+						<img id="r" src="Septima Vector.jpg"/>
+						Septima Vector.<br/>
+						It's a subject that uses numbers to tell the future. 
+						To be precise, we learn how to predict the future through complex formulas and graphs.
+						The belief is that the types of numbers that exist in everyday life can give information about the future. 
+						It is known to be more accurate than fortunetelling, and can be selected and heard from third grade or higher. There is a 'Sanjuljeom' in the textbook.
+					</h4>
+				</div><br/>
+			</aside>
+		</section>
+
+		<div id="pin">
+			<div class="box">Go to other course</div>
+			<aside id="link">
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html">1th and 2th course</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_3th.html">after 3th course</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_other.html">other subject</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_exam.html">examination</a></li>
+		</aside>
+		</div>
+		</div>
+		
+		<center><footer>Made by Kimsohei</footer></center>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

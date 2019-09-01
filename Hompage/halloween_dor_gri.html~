@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+	
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url(initi.css);
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url(class_subject_sec.css);
+		
+		#title > a {color:white;}
+
+
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('link.png');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;		
+
+
+
+					animation-name:rint;
+					animation-duration:10s;
+					animation-direction:normal;
+					animation-timing-function:linear;
+					animation-iteration-count:infinite;			
+				}
+
+
+		@keyframes rint {
+		
+			from{	transform: rotate(0deg);}
+			to{ transform:rotate(360deg);}
+			
+				}
+	</style>
+			
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+
+			
+			.li { overflow:hidden;}
+
+			#link {		
+						display:block;
+						padding:30px;
+						font-size:1.3em;
+						width:160px;
+						height:190px;
+						border-radius: 0px 0px 10px 10px;
+						background:white;
+						font-family: 'Kaushan Script', cursive;
+					}
+
+			section > aside{		
+						display:inline-block;
+						padding:30px;
+						font-size:1.3em;
+						width:900px;
+						height:560px;
+						border-radius: 10px 10px 10px 10px;	
+						background-image:url('gri_img.jpg');
+						background-size:100% 630px;
+						background-repeat:no-repeat;
+						overflow:hidden;
+						font-family: 'Kaushan Script', cursive;
+						float:right;
+						color:red;
+						border: 2px solid #CC3300;
+					}
+
+			section > aside > img {float:left;}
+
+
+			.box { 
+					display:block;
+					padding:10px;
+					border:1px solid black;
+					background:red;
+					width:199px;
+					height:30px;
+					border-radius:10px 10px 0px 0px;
+					font-size:1.5em;
+					text-align:center;
+					line-height:30px;
+					font-weight:bold;
+				    }
+
+			.box > a {color:#9999FF;}
+
+			#pin { 
+					float:right;
+					display:inline-block;
+					margin:0px 20px;						
+				   }
+	</style>
+
+	<style>
+				@import url(titl_ta.css);
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+
+			<aside>
+				<img src="log_gri.jpg"/>
+				<h1>Gryffindor House-(a dormitory for the brave and bold).</h1><br/> 
+				It is one of Hogwarts' four dormitories.
+				The Founder's Ideology is, "Let's teach everyone who shows the courage to match that name.".<br/>
+				We've produced a lot of great wizards, and now the superintendent of the dormitory is Minerva McGonagh. 
+				It is recognized internally and externally as a dormitory that has produced Albus Dumbledore, the best wizard in the world and a dormitory for three people in Hogwarts. 
+				However, even a positive article does not seem to be doing anything but mind. 
+				The ungrateful courage for a man is just frowned upon or conceited, and there are some who wonder how he got into Griffindor. 
+				As Slitheen is not an absolute villain, Gryffindor is not an unconditional messenger.
+
+				The ghost living in the dormitory is Nick with a sweet neck.Traditionally, courage is important. 
+				The criteria for selecting students are also courage. 
+				Unexpectedly, there are more troublemakers than other dormitories. 
+				Of course, these troublemakers are quite popular among the students, so it seems that the reputation of the dormitory is on a very good scale. 
+				In a movie Slitheen collide especially frequently, and many of them are from Gryffindor. On the other hand, people who eat death come from Slitheen most.
+
+				At the entrance to the dormitory is a fat-looking painting, which cannot be accessed until the woman in the portrait has her password.
+			</aside>
+		</section>
+
+		<div id="pin">
+			<div class="box"><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html">Go to other Dormitory</a></div>
+			<aside id="link">
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_gri.html">Gryffindor</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_huff.html">Hufflepuff</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_raven.html">Ravenclaw</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor_sly.html">Slytherin</a></li>
+		</aside>
+		</div>
+		</div>
+
+		<center>
+			<footer>
+				Made by Kimsohei<br/>
+				8301011<br/>
+			</footer>
+		</center>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

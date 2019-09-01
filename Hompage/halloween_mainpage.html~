@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		body { margin:0; padding:0; }
+		li { list-style: none; }
+		a { text-decoration: none; }
+		img { border: 0; }
+		body {
+			font-family: 'Bitter', serif;
+			font-family: 'Petit Formal Script', cursive;
+			font-family: 'Italianno', cursive;
+			font-family: 'Rochester', cursive;
+			background-color:black;
+		         }
+		a { color:black;}
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+
+		#main_header { 
+			position: relative;
+			width: 1000px; height: 300px; 
+			margin: 0 auto;
+		         }
+		#main_header > #title {
+					position: absolute;
+					top: 50px;
+					left: 200px;
+					color: white;
+					font-size: 1.3em;
+				      }		
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('halloween.jpg');
+					border-radius: 100px 100px 100px 100px;
+					width: 400px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+			
+	<style>
+		section > section {
+				width: 1000px; 
+				height: 70px;
+ 				margin: 0 auto;
+				padding: 0;
+				
+			    }
+
+		section {
+				width: 1000px; 
+				margin: 0 auto;
+				padding: 0;
+				
+			    }
+
+		#tab > ul > a > li { 
+									padding: 10px 20px;
+									display:block;
+							     }
+
+		#tab > ul {overflow:hidden;}
+
+		li { 
+				border: 1px solid #9900FF;	
+				float: left;		
+				background: #f5f1ff;
+				background: linear-gradient(45deg, #f5f1ff 0%,#ddcfff 47%,#c0a7ff 100%);
+				width: 190px;
+				height: 50px;
+				line-height: 50px;
+				text-align:center;
+				font-size: 1.3em;
+				box-sizing:border-box;
+			}
+
+		#first { border-radius: 10px 0 0 10px; }
+		#last { border-radius: 0 10px 10px 0; }
+							
+		#article {
+						float:right;
+						font-size:1.4em;
+						width: 300px;
+						height: 500px;
+						margin: 10px;
+						position: absolute;
+						top: 60px;
+					     }
+		#article > span {	
+								display: inline-block; 
+								font-weight: bold;
+								width:50%;
+								float:right;
+							}
+
+		a > div { overflow:hidden; }
+
+		img {
+				float:left;
+				margin: 40px 10px;
+			  }
+
+		span { display: inline-block;}
+
+		
+
+		aside {
+						width: 990px; 
+						height: 530px;
+						background: white;
+						float:right;
+						border-radius: 10px;
+						position: relative;
+						display:block;
+						font-family: 'Lobster', cursive;
+						font-family: 'Courgette', cursive;
+					     }
+
+		aside > span > div { 
+									font-family: 'Lobster', cursive;
+									font-size:1.8em;
+									font-weight: bold;
+									position:absolute;
+									left: 10px;
+									top:20px;
+							     }
+
+		#rank { 
+					width:100%;
+					margin: 30px 0px 0px 0px;
+					background:#4c4c4c;
+					color:white;
+					height:90px;
+					font-size:1.3em;
+					box-sizing:border-box;
+					display: block;
+				}
+ 
+		#rank > div {
+							width:1000px;
+							margin: 0 auto;
+							padding:10px;
+						}
+
+		#rank > div > center { font-size:0.8em;}
+
+
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3>
+			</div>
+		</header>
+
+		<section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+			<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_article.html"><div><aside>
+				<span>
+					<div>Albus Dumbledore invited muggles!</div><br/><br/>
+					<img src="hog.jpg"/>
+				</span>
+				<span id="article">
+
+						On October 31, <br/>Dumbledore invited them to a Halloween party at Hogwarts School of Witchcraft and Wizardry.<br/>
+						They,who were invited to the event, will wear a Hogwarts's school uniform and gather in auditorium and enjoy a nice dinner.<br/>
+						It is said that meals are served as course meals and even unique desserts.<br/>
+						<span>.</span><br/>
+						<span>.</span><br/>
+						<span>.</span><br/>
+				</span>
+			</aside></div></a>
+		</section>
+
+		<footer id="rank"><div>
+			This page is designed to provide basic knowledge to Muggles.<br/>
+				<center>Made by Kimsohei<br/>
+				8301011<br/></center>
+		</div></footer>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

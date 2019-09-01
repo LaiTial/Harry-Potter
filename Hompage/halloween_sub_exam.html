@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+	
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url('initi.css');
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url('class_subject_sec.css');
+
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('sub.jpg');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+			
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+			@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+			@import url('class_subject_thir_exam.css');
+			
+			section > aside{		
+						display:inline-block;
+						padding:30px;
+						font-size:1.3em;
+						width:900px;
+						height:1600px;
+						border-radius: 10px 10px 10px 10px;	
+						background:white;
+						font-family: 'Kaushan Script', cursive;
+						float:right;
+					}
+
+			section > aside > h1 {
+										font-family: 'Kaushan Script', cursive;
+										font-family: 'Lobster', cursive;
+										font-size:2em;
+										text-decoration:underline;
+									    }
+
+
+			aside > div { margin:10px; overflow:hidden;}
+
+			.pn { 
+					font-family: 'Crimson Text', serif;
+					display:inline-block;
+					float:left;
+					width:350px;
+				}
+
+			.two {
+						font-size:1.1em;
+						width:87px;
+						height:30px;
+						padding:10px;
+						display:inline-block;
+						overflow:hidden;
+						white-space:nowrap;
+						text-overflow:ellipsis;
+						border: 2px solid yellow;
+						line-height:30px;				
+						margin:0px;
+						float:left;
+					
+				}
+			label:nth-of-type(1) {border-radius:10px 0px 0px 0px;}
+			label:nth-of-type(2) {border-radius:0px 10px 0px 0px; border-left:0px;}
+
+			#tw {border-left:0px;}
+
+
+			input:nth-of-type(1):checked ~ .box > label:nth-of-type(1) { background:#9966FF; color:#993399;}
+			input:nth-of-type(2):checked ~ .box > label:nth-of-type(2) { background:#9966FF; color:#993399;}
+
+			input:nth-of-type(1) { display: none; }
+			input:nth-of-type(1) ~ aside > div:nth-of-type(1) { display:none; }
+			input:nth-of-type(1):checked ~ aside > div:nth-of-type(1) { display:block; }
+
+
+			input:nth-of-type(2) { display: none; }
+			input:nth-of-type(2) ~ aside > div:nth-of-type(2) { display:none; }
+			input:nth-of-type(2):checked ~ aside > div:nth-of-type(2) { display:block; }
+
+
+			#link { padding-left:0px; padding-right:61px; padding-top:10px;}
+
+
+			
+			
+
+	</style>
+
+
+	<style>
+		@import url('titl_ta.css');
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+
+			<aside>
+				<h1>examination</h1><br/>
+
+				<div>
+					<h4>
+						<h3 id="exam1">1th to 4th course</h3>
+						From the first to the fourth grade, you only have to pass the exam to get to the next grade. 
+						Regular tests are generally rated full of 100 points. Students who fail the exam for the year must take the class again next year.<br/><br/><br/>
+
+						<div class="pn">Pass
+						<ul>
+							<li>O(Outstanding)</li>
+							<li>E(Exceeding Expectations)</li>
+							<li>A(Acceptable)</li>
+						</ul></div>
+
+						<div class="pn">Fail
+						<ul>
+							<li>P(Poor)</li>
+							<li>D(Dreadful)</li>
+							<li>T(Troll)</li>
+						</ul></div>
+					</h4>
+				</div><br/>
+
+				<div>
+					<h4>
+						<h3 id="exam2">O.W.L.</h3>
+					Original Wizarding Level (O.W.L.)<br/> 
+					It is a test taken by fifth grade Hogwarts. 
+					It is under the direction of the Wizarding Experiences Authority of the Ministry of Magic. <br/>
+					It is important to determine whether or not future classes can be continued depending on the student's O.W.L. grades, and also to select a job.
+					O.W.L. is often used to refer to classes at the level of O.W.L. Also, getting an O.W.L. in a particular subject means that the student has passed the O.W.L. test for that subject.
+					Just like N.E.W.T., it is an important test to determine the future course of wizards and O.W.L. determines whether the student can take classes at the N.E.W.T. level.
+					O.W.L. exams are difficult and it is very difficult to prepare for them. I usually prepare for them in fourth grade and take exams at the end of the fifth grade. The pressure is so great that some students have panic attacks.
+					The results of O.W.L. are individually notified through the owl during July. If an O.W.L. test is passed, the class may take classes at the level of N.E.W.T. or participate in job-seeking activities for jobs that can be obtained only through O.W.L.
+					</h4>
+				</div><br/><br/>
+
+
+				<div>
+					<h4>
+						<h3 id="exam3">N.E.W.T.</h3>
+						Nastily Exhausting Wizarding Test(N.E.W.T.).<br/>
+						It is a test taken in the seventh grade of Hogwarts, which is a high level test of O.W.L.<br/>
+						Ten times as much as O.W.L. is difficult. 
+						As to how difficult the test is, those who passed O.W.L. were often mentioned in the work, but none of them said that they passed N.E.W.T. 
+						It may be because there are so many things to do and the difficulty 	is very high, but it may be because most jobs require certain subjects.
+						It's actually the biggest challenge to get a job and a job because it's the last test. 
+						More important than Muggles in terms of direct testing of skills, magic, that are utilized in real work, not just in terms of academic background, like A-Level in England.	
+					</h4>
+				</div><br/>
+
+			</aside>
+		</section>
+			
+			<div id="pin">
+				<input id="fi" type="radio" name="tab" checked/>
+				<input id="tw" type="radio" name="tab"/>
+				<div class="box">
+					<label for="fi" class="two">Go to other course</label>
+					<label for="tw" class="two">Find a exam</label>
+				</div>
+				<aside id="link">
+					<div>
+						<ul>
+							<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html">1th and 2th course</a></li>
+						<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_3th.html">after 3th course</a></li>
+						<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_other.html">other subject</a></li>
+						<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub_exam.html">examination</a></li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li><a href=#exam1>1th to 4th course</a></li>
+						<li><a href=#exam2>O.W.L.</a></li>
+						<li><a href=#exam3>N.E.W.T.</a></li>
+						</ul>
+					</div>
+				</aside>
+
+			</div>
+		</div>
+
+		<center>
+			<footer>
+				Made by Kimsohei<br/>
+				8301011<br/>
+			</footer>
+		</center>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

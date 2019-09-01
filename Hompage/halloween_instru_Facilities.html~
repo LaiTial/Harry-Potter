@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-4.1.3.css">
+
+	
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url('initi.css');
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url('class_subject_sec.css');
+
+		#title > a {color:white;}
+
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('witch_thirst.jpg');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+
+			section > center > aside{	
+						transform:translateY(130px);	
+						display:block;
+						font-size:1.3em;
+						width:600px;
+						height:1100px;
+						border-radius: 10px 10px 10px 10px;	
+						background-image:url('parch2.jpg');
+						background-size:100% 900px;
+						background-repeat:no-repeat;
+						font-family: 'Kaushan Script', cursive;
+						color:black;
+					}
+
+			aside > #letter {padding:100px;}
+
+			section { position:relative;}
+
+	</style>
+
+	<style>
+
+		#bird1 { 
+					width:200px;	
+					height:200px;
+					background-image:url('bird.jpg');
+					background-size:100% 200px;
+					background-repeat:no-repeat;
+					position:absolute;
+					transform: translate(400px, -120px);
+					z-index:122;
+				}
+
+		#bird2 { 
+					width:200px;	
+					height:200px;
+					background-image:url('bird.jpg');
+					background-size:100% 200px;
+					background-repeat:no-repeat;
+					position:absolute;
+					transform: translate(200px, -120px) rotateY(180deg);
+					z-index:99;
+				}
+
+	#part1 {
+				position:absolute;
+				top:100px;
+				left:40px;
+			}
+
+	#part2 {
+				position:absolute;
+				top:100px;
+				left:40px;
+				transform:rotateY(180deg);
+			}
+
+	#part3 {
+				position:absolute;
+				top:100px;
+				left:40px;
+				display:none;
+			}
+
+	#part4 {
+				position:absolute;
+				top:100px;
+				left:40px;
+				transform:rotateY(180deg);
+				display:none;
+			}
+			
+	#bird1:hover > a:nth-child(1) > button { 
+									display:none;
+								}
+	#bird2:hover > a:nth-child(1) > button { 
+									display:none;
+								}
+
+	#bird1:hover > a:nth-child(2) > button { 
+									display:block;
+								}
+	#bird2:hover > a:nth-child(2) > button { 
+									display:block;
+								}
+
+	</style>
+
+	<style>
+				@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
+				@import url('titl_ta.css');
+	</style>
+
+</head>
+<body>
+
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>	
+
+			<center><aside>
+				<div id="bird1">
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><button type="button" id="part1" class="btn btn-info">Basic knowledge</button></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru_Facilities.html"><button type="button" id="part3" class="btn btn-info">Spell</button></a>
+				</div>
+				
+				<div id="bird2">
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru_schoolsong.html"><button type="button" id="part2" class="btn btn-info">School song</button></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru_Magic Item.html"><button type="button" id="part4" class="btn btn-info">Magic Item</button></a>
+				</div>
+
+				<div id="letter">
+				1) Lumos<br/>
+				The magic that comes out of the cane with the magic that comes out of the light.<br/><br/> 
+
+				2) Glisseo<br/>
+				It's a magic to spread things out.<br/><br/>
+
+				3) Descendo<br/>
+				It's a magic to bring down a target.<br/><br/>
+
+				4) Lavifors<br/>
+				It's a transformative magic that turns you into a rabbit.<br/><br/>
+
+				5) Revelio<br/>
+				It is a magic that invalidates the art of transformation.<br/><br/>
+
+
+				6)Locomotor<br/>
+				It's a magic that makes an object follow you.<br/><br/>
+				</div>
+
+			</aside></center>
+		</section>
+			
+	</div>
+
+		<center>
+			<footer>
+				Made by Kimsohei<br/>
+				8301011<br/>
+			</footer>
+		</center>
+   
+
+</body>
+</html>
+

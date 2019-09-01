@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette|Lobster" rel="stylesheet">
+
+	<style type="text/css">
+	body { opacity: 0; }
+	</style>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	    $("body").delay(500).animate({ opacity: 1 }, 1000);
+	});
+	</script>
+
+	<style>
+		@import url('initi.css');
+	</style>
+
+	<style>
+
+		@import url('https://fonts.googleapis.com/css?family=Bitter|Italianno|Petit+Formal+Script|Rochester');
+		@import url('class_subject_sec.css');		
+	
+		.ti_img { background-repeat: no-repeat;
+					background-image: url('sub.jpg');
+					border-radius: 140px 140px 140px 140px;
+					width: 300px;
+					height: 300px;
+					position: absolute;
+					background-size:100% 300px;					
+				   }
+	</style>
+			
+	<style>
+
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+			@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster');
+			@import url('class_subject_thir.css');
+
+			section > aside{		
+						display:inline-block;
+						padding:30px;
+						font-size:1.3em;
+						width:900px;
+						height:2200px;
+						border-radius: 10px 10px 10px 10px;	
+						background:white;
+						font-family: 'Kaushan Script', cursive;
+						float:right;
+					}
+
+			section > aside > h1 {
+										font-family: 'Kaushan Script', cursive;
+										font-family: 'Lobster', cursive;
+										font-size:2em;
+										text-decoration:underline;
+									    }
+
+			img {
+					width:450px;
+					height:300px;
+					float:left;
+					margin:10px 20px;
+				   }
+
+
+
+			section > aside > div > h4 { float:left;}
+
+			aside > div { margin:10px; overflow:hidden;}
+
+
+	</style>
+
+	<style>
+		@import url('titl_ta.css');
+	</style>
+
+ </head>
+
+
+ <body>
+		<header id="main_header">
+		<div class="ti_img"></div>
+			<div id="title">
+				<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_mainpage.html"><h1>Halloween Party!</h1>
+				<h3>Hogwarts School of Witchcraft and Wizardry!<h3></a>
+			</div>
+		</header>
+
+		<div class="li"><section>
+			<section class="tab">
+				<ul>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_instru.html"><li id="first">Instructional page</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_dor.html"><li>dormitory</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_sub.html"><li>class subject&professor</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html"><li>student life</li></a>
+					<a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_video.html"><li id="last">Harry Potter's video</li></a>
+				</ul>			
+			</section>
+
+			<aside>
+				<h1>Quidditch</h1><br/>
+
+				<div>
+					<h4>
+						<h3>History of Quidditch</h3>
+					<img src="qdi.png"/>
+					Quidditch is a favorite sport for wizards. Wizards in Europe have been using broomsticks as transportation since about 962 A.D. and enjoyed many kinds of broomsticks. 
+					Quidditch, among other things, developed the broom race he enjoyed in the Quireditch Marsh region of England around the 11th century. 
+					At first, he put a ball made of leather (quaffle) into the opponent's tree and threw rocks to drop the opponent's player. 
+					The rock developed into a ball called the (Bludger) after it spread widely over 100 years. 
+					From the mid 13th century, a new element was added to Quidditch: "Golden Snitch" and "Today's Scout." 
+					At first, a small bird named "Golden Snippet" was released to the stadium to kill Snippet and finish the game. 
+					However, there has been a growing criticism for protecting Snippet, and later a wizard named Bowman Wright invented the ball called Golden Snitch as a substitute for Snippet.
+				
+
+					<h3>how to play</h3>
+					<img src="ball_fi.jpg"/>
+					<img src="snitch.png"/>
+					A total of four balls are used for Quidditch. 
+					Quaffle, Bludger, and Golden Snitch.
+					The quaffle is the largest red 30 cm leather ball, and is a goal ball. You can score 10 points if you put a quay into the net.
+					Use two Bludger, which is black, 25 cm steel balls. He moves himself and runs toward the nearest player and drops the player. 
+					Usually it ends with an injury, but in the worst case, there is a risk of death. In order to prevent his opponent from getting hurt, beaters must use bat to hit Blaser against their opponents.
+					Golden Snitch is the smallest 2.5 cm ball in gold. It is called Snitch for short, and it is a golden nut-shaped ball with wings. 
+					It is difficult to catch the ball because it is so fast, and since the game ends by scoring 150 points when a seeker catches the ball, it is the most important ball that determines the win or loss. 
+					Usually, Snitch's catch wins, but sometimes it isn't. They also wear gloves to make the first player to remember the skin.<br/>
+
+					<img src="play.jpg"/>
+					A total of 14 players will participate in each team. 
+					Chaser picks up the quaffle and throws it into the opponent's net for scoring. Three players will play.
+					Beater is the role of clubbing Bludger to the other side to prevent the bat from harming his side. Two players will play. 
+					Keeper is responsible for keeping three goals and preventing the opponent from adding quaffles. One player will play.
+					Seeker plays the role of finding and catching Snitch, and the game ends only when a hunter catches Snitch.The broomstick will do as well as possible. One player will play. 
+					Because it is the most important role, it is likely to be targeted by opponents.
+
+
+					<h3>the rules of the game</h3>
+					<ul>
+						<li>When the referee enters the center circle with four balls, 14 players are waiting in a broomstick.</li>
+						<li>When the ball is released out of the box, the players jump straight to the sky and the game begins.</li>
+						<li>If you commit a foul, your opponent will be given a free throw.</li>
+						<li>It is 10 points when you add the quaffle.</li>
+						<li>When a seeker catches Snitch, he scores 150 points and the game ends.</li>
+						<li>The game will last forever if the seeker cannot catch Snitch. The maximum record is said to be three months.</li>
+					</ul>
+				</h4></div><br/>
+			</aside>
+		</section>
+
+		<div id="pin">
+			<div class="box">Go to other course</div>
+			<aside id="link">
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen.html">Quidditch</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen_hog.html">Hogsmeade</a></li>
+				<li><a href="http://cslin.skuniv.ac.kr/~kimsohe1811/Halloween_Party/halloween_studen_diagon.html">Diagon Alley</a></li>
+		</aside>
+		</div>
+		</div>
+		
+		<center>
+			<footer>
+				Made by Kimsohei<br/>
+				8301011<br/>
+			</footer>
+			
+		</center>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
